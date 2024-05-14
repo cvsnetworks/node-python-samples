@@ -1,0 +1,9 @@
+git clone https://github.com/dockersamples/example-voting-app.git
+
+PS D:\example-voting-app> cd .\vote\
+PS D:\example-voting-app\vote> docker build -t voting-app .
+
+PS D:\example-voting-app\vote> docker images
+REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
+voting-app   latest    4866250f80e2   37 seconds ago   154MB
+
